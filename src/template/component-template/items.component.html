@@ -1,0 +1,7 @@
+<table border="1px">
+    <tr><th>Item Name</th><th>Price (Large)</th></tr>
+    <tr ng-repeat="item in $ctrl.items">
+        <td title="{{item.description}}">{{item.name}}</td><td align="right">{{item.price_large}}</td>
+    </tr>
+</table>
+
